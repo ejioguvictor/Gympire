@@ -23,7 +23,7 @@ function HeroBanner() {
         mb="23px"
         mt="30px"
       >
-        Sweet, Smile <br /> and Repeat
+        Sweat, Smile <br /> and Repeat
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={4}>
         Checkout the most effective exercises
