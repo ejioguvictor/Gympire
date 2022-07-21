@@ -11,7 +11,7 @@ const LeftArrow = () => {
 
   return (
     <Typography onClick={() => scrollPrev()} className="right-arrow">
-      <img src={LeftArrowIcon} alt="right-arrow" />
+      <img src={LeftArrowIcon} alt="left-arrow" />
     </Typography>
   );
 };
@@ -28,7 +28,7 @@ const RightArrow = () => {
 const HorizontalScrollBar = ({ data, bodyPart, setBodyPart, isBodyParts }) => {
   return (
     <div style={{ width: "100%", overflowX: "scroll" }}>
-      <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} >
+      <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {data.map((item) => (
           <Box
             key={item.id || item}
@@ -48,39 +48,8 @@ const HorizontalScrollBar = ({ data, bodyPart, setBodyPart, isBodyParts }) => {
           </Box>
         ))}
       </ScrollMenu>
-    </div>
+    </div >
   )
 }
 
 export default HorizontalScrollBar
-
-
-
-
-
-// const HorizontalScrollbar = ({ data, bodyPart, setBodyPart, isBodyParts }) => {
-//   return (
-//     <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} >
-//       {data.map((item) => (
-//         <Box
-//           key={item.id || item}
-//           itemId={item.id || item}
-//           title={item.id || item}
-//           m="0 40px"
-//         >
-//           {isBodyParts ? (
-//             <BodyPart
-//               item={item}
-//               setBodyPart={setBodyPart}
-//               bodyPart={bodyPart}
-//             />
-//           ) : (
-//             <ExerciseCard exercise={item} />
-//           )}
-//         </Box>
-//       ))}
-//     </ScrollMenu>
-//   );
-// };
-
-// export default HorizontalScrollbar;
