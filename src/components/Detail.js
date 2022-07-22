@@ -29,6 +29,7 @@ const Detail = ({ exerciseDetail }) => {
       sx={{ flexDirection: { lg: "row" }, p: "20px", alignItems: "center" }}
     >
       <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
+      console.log(gifUrl)
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
         <Typography variant="h3">{name}</Typography>
         <Typography variant="h6">
