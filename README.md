@@ -1,4 +1,8 @@
-#A fitness app with over 1000 exercises to choose from. ImgGifs to help with visualizing the exercises. You can gain access to the each fitness page, on clicking a fitness. You get more informations on the exercise, while also being able to click on youtube videos to be redirected to youtube to watch the exercise being executes.
+### A Gym-empire fitness therapy with close to 1500 different personalized exercises designed to keep users fit and healthy at all times. This application has very important features such as the Img-Gifs to aid users in visualizing the respective exercises. A clcick on each exercise, opens up a new page having more details, video demos and similar exercises page related to it. Here, one gains detailed info on the exercises, while also being able to click on youtube videos to be redirected to youtube to watch the demos.
+
+![Screenshot](/public/gympire01.png)
+![Screenshot](/public/gympire02.png)
+![Screenshot](/public/gympire03.png)
 
 # Getting Started with Create React App
 
