@@ -26,12 +26,12 @@ function HeroBanner() {
         Sweat, Smile <br /> and Repeat
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={4}>
-        Checkout the most effective exercises
+        Checkout the most effective exercises to keep you fit.
       </Typography>
       <Button
         variant="contained"
         color="error"
-        href="exercises"
+        href="#exercises"
         sx={{ backgroundColor: "#ff2625", padding: "10px" }}
       >
         Explore Exercises
