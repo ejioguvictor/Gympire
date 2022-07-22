@@ -29,7 +29,7 @@ const Exercisevideos = ({ exerciseVideos, name }) => {
         justifyContent="center"
         sx={{ flexDirection: "row", gap: { lg: "110px", xs: "10px" } }}
       >
-        {exerciseVideos?.slice(0, 6).map((item, index) => (
+        {exerciseVideos?.slice(0, 6)?.map((item, index) => (
           <a
             key={index}
             className="exercise-video"
